@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(54, 67, 113);
+}
+#wrap {
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+}
+#nav {
+  background-color: rgb(176, 207, 255);
+}
+#content {
+  background-color: rgb(91, 127, 189);
+}
