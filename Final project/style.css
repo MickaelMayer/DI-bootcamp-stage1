@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(190, 193, 186);
+  background-color: rgb(52, 70, 73);
 }
 #img-rebbe {
   margin: 0 auto;
@@ -8,4 +8,5 @@ body {
   block-size: 700px;
   background: url(./assets/img/7-16-19-rebbe\ 2.jpg) fixed center/cover
     no-repeat;
+  border-radius: 1%;
 }
