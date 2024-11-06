@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(190, 193, 186);
+}
+#img-rebbe {
+  margin: 0 auto;
+  max-width: 1300px;
+  height: 300px;
+  block-size: 700px;
+  background: url(./assets/img/7-16-19-rebbe\ 2.jpg) fixed center/cover
+    no-repeat;
+}
