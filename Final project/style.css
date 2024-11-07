@@ -1,10 +1,14 @@
 body {
-  background-color: rgb(52, 70, 73);
+  background-color: rgb(36, 36, 35);
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 p,
 h2,
 h5 {
-  color: rgb(255, 187, 154);
+  color: rgb(200, 173, 167);
 }
 #img-rebbe {
   margin: 0 auto;
@@ -13,10 +17,24 @@ h5 {
   background: url(./assets/img/7-16-19-rebbe\ 2.jpg) fixed center/cover
     no-repeat;
   border-radius: 1%;
+  display: flex;
 }
-/* #img-rebbe p {
-  font-family: allura;
-} */
+
+#img-rebbe p {
+  font-family: "Italianno", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 6rem;
+  color: rgb(241, 233, 228);
+  margin: 0;
+  padding: 0;
+}
+.R-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+}
 
 .nav-bar {
   margin: 0px auto;
@@ -25,16 +43,23 @@ h5 {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  background: rgba(251, 233, 209, 0.613);
+  background: rgba(207, 219, 213, 0.659);
 }
+
 a {
   text-decoration: none;
-  color: rgb(255, 187, 154);
+  color: rgb(241, 233, 228);
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.3rem;
 }
 .life {
   margin: 0px auto;
   width: 70%;
-  background: rgba(251, 233, 209, 0.401);
+  background: rgba(232, 237, 223, 0.794);
   padding: 25px;
 }
 .life ul {
@@ -46,9 +71,11 @@ li {
   width: 70%;
   padding: 10px;
   margin: 0px auto;
-  color: rgb(255, 187, 154);
+  /* color: rgb(241, 233, 228); */
+
   line-height: 24px;
   margin-bottom: 2px;
+  list-style: none;
   /* margin-top: 3px; */
 }
 .campaigns {
@@ -86,7 +113,6 @@ li {
 #campaigns-card7 {
   grid-area: 3 / 1 / 4 / 2;
 }
-
 #campaigns-card8 {
   grid-area: 3 / 2 / 4 / 3;
 }
