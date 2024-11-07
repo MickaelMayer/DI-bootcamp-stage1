@@ -5,14 +5,10 @@ body {
   margin: 0;
   padding: 0;
 }
-p,
-h2,
-h5 {
-  color: rgb(200, 173, 167);
-}
+
 #img-rebbe {
   margin: 0 auto;
-  height: 300px;
+  height: 500px;
   block-size: 700px;
   background: url(./assets/img/7-16-19-rebbe\ 2.jpg) fixed center/cover
     no-repeat;
@@ -48,9 +44,9 @@ h5 {
 
 a {
   text-decoration: none;
-  color: rgb(241, 233, 228);
   display: flex;
   justify-content: space-evenly;
+  color: rgb(241, 233, 228);
   font-family: "Roboto", serif;
   font-weight: 500;
   font-style: italic;
@@ -61,10 +57,28 @@ a {
   width: 70%;
   background: rgba(232, 237, 223, 0.794);
   padding: 25px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 .life ul {
   padding: 0;
   margin: 0;
+}
+.life li {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  align-items: center;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.life h5 {
+  font-size: 1.3rem;
+  color: black;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.3rem;
 }
 #life ul,
 li {
@@ -72,16 +86,26 @@ li {
   padding: 10px;
   margin: 0px auto;
   /* color: rgb(241, 233, 228); */
-
   line-height: 24px;
   margin-bottom: 2px;
   list-style: none;
   /* margin-top: 3px; */
 }
+
+h4 {
+  display: flex;
+  justify-content: center;
+  color: rgb(241, 233, 228);
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 1.5rem;
+}
 .campaigns {
   width: 70%;
   margin: 0 auto;
-  background: rgba(251, 233, 209, 0.401);
+  background: rgba(232, 237, 223);
+  border-radius: 15px;
   padding: 25px;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
@@ -127,13 +151,18 @@ li {
   display: grid;
   grid-template-columns: 20% 80%;
   align-items: center;
-  border: 1px solid rgb(125, 141, 150);
+  /* border: 1px solid; */
   border-radius: 50px;
-  background: rgb(125, 141, 150);
+  background: rgba(125, 141, 150, 0.806);
   margin: 10px;
   padding: 10px;
+  height: 150px;
 }
 
 .c-text {
   margin-left: 25px;
+}
+.Nigunim {
+  width: 70%;
+  margin: 0 auto;
 }
