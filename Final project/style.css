@@ -111,13 +111,15 @@ a {
   display: grid;
   grid-template-columns: 25% 75%;
   align-items: center;
+  color: rgb(31, 56, 57);
+
   font-family: "Roboto", serif;
   font-weight: 500;
   font-style: normal;
 }
 .life h5 {
   font-size: 1.3rem;
-  color: black;
+  color: rgb(31, 56, 57);
   font-family: "Italianno", cursive;
   font-weight: 1000;
   font-style: normal;
@@ -147,7 +149,9 @@ h4 {
 .campaigns {
   width: 70%;
   margin: 0 auto;
-  background: rgba(232, 237, 223);
+  /* background: rgba(232, 237, 223); */
+  background: rgba(232, 237, 223, 0.794);
+
   border-radius: 15px;
   padding: 25px;
   display: grid;
