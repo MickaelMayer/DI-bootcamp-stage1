@@ -256,6 +256,26 @@ h4 {
   border: solid 1px;
   border-radius: 250px;
 }
+footer h4 {
+  color: black;
+}
 footer {
-  background-color: black;
+}
+
+footer ul {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+footer i {
+  color: black;
+}
+footer a {
+  transition: 0.8s ease;
+  position: relative;
+}
+footer a:hover {
+  transform: scale(1.5);
+}
+footer a::after {
+  display: none;
 }
