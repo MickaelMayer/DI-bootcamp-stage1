@@ -259,15 +259,21 @@ h4 {
 footer h4 {
   color: black;
 }
-footer {
-}
 
 footer ul {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
+  display: flex;
+  justify-content: space-evenly;
 }
 footer i {
-  color: black;
+  color: rgb(40, 75, 99);
+  border: solid 1px;
+  border-radius: 150px;
+  height: 40px;
+  width: 40px;
+  /* font-size: 0.9rem; */
+  align-content: center;
+  line-height: 10px;
+  text-align: center;
 }
 footer a {
   transition: 0.8s ease;
